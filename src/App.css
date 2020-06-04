@@ -1,0 +1,95 @@
+.container {
+  max-width: 1519px;
+  width: 76.56%; 
+  margin: 0 auto;
+}
+
+h1 {
+  margin: 50px auto;
+  font: 600 35px "sans-serif";
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.user-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.user-container > div {
+  flex-basis: 40%;
+}
+
+/* left part starts  */
+
+h2 {
+  margin-bottom: 30px;
+  font: 600 25px "sans-serif";
+}
+
+form > div {
+  margin-bottom: 20px;
+}
+
+form label {
+  margin-right: 5px;
+}
+
+form input {
+  padding: 5px 0;
+  border-radius: 5px;
+  box-sizing: border-box;
+  display: inline-block;
+  width: 100%;
+}
+
+form button {
+  margin-right: 10px;
+  padding: 5px 10px;
+  border: 2px solid rgba(209, 209, 209);
+  color: #fff;
+  font-size: 20px;
+  transition: .3s ease;
+}
+
+.adduser-btn {
+  background-color: #5ab8f7;
+}
+
+.update-user-btn {
+  background-color: #a192f7;
+}
+
+.cancel-btn {
+  background-color: #ff7373;
+}
+
+form button:hover {
+  border: 2px solid #808080;
+}
+/* left part ends  */
+
+
+/* right part starts  */
+.users-head {
+  background-color: #817d7d;
+  color: #fff;
+  font: 600 25px "sans-serif";
+}
+
+.users-list {
+  margin-bottom: 10px;
+  border-bottom: 2px solid #808080;
+  display: flex;
+  justify-content: space-around;
+}
+
+.users-list li {
+  padding: 10px 0;
+  flex-basis: 30%;
+}
+
+.edit-btn {
+  margin-right: 20px;
+}
+/* right part ends  */
